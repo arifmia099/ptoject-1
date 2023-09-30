@@ -1,0 +1,292 @@
+/*common start*/
+body{
+	margin: 0;
+	font-family: PlayfairDisplay, serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 25px 0;
+	/*border: 1px solid red;*/
+}
+
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+
+}
+.b_content{
+	
+}
+.logo {
+	width: 11%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 12px;
+	
+}
+.logo a{
+
+}
+.logo a img{
+	width: 100%
+	
+}
+.menu {
+	width: 60%;
+	/*border: 1px solid red;*/
+	float: right;
+	}
+.menu ul{
+	float: right;
+}
+	
+.menu ul li{
+	    list-style: none;
+    	float: left;
+	
+}
+.menu ul li a{
+	margin: 0 38px;
+	display: inline-block;
+	color: #622626;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: .33s;
+}
+.menu ul li a:hover{
+border-bottom: 1px solid #622626;
+}
+
+.menu ul li:last-child a{
+margin-right: 0;
+	
+}
+/*header end*/
+/*banner start*/
+.banner {}
+.b_img {}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding-top: 100px;
+}
+.container2{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid;*/
+}
+.g_section{}
+
+.c_light{
+	margin: 0;
+	font-family: PlayfairDisplay , sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+   
+.c_text{
+	line-height: 24px;
+	margin: 0;
+}
+.c_light.mt_6o {
+    margin-top: 50px;
+}
+/*getaway end*/
+/*blog1 start*/
+.blog1 {
+    padding: 0 auto;
+    /*border: 1px solid;*/
+}
+.b_blog{
+	margin-top: 70px;
+	float: left;
+    width: 47%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;;
+}
+.b_blog:nth-child(even){
+    margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 20px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog1 end*/
+/*news start*/
+.news{
+	background-color: #F0F0F0;
+	 padding: 70px 15px;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	 position: relative;
+	 width: 400px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+   
+}
+.s_form input{
+	font-family: PlayfairDisplay , sans-serif;
+	font-size: 14px;
+	color: #622626;
+	width: 365px;
+	height: 45px;
+	border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.s_form input focus{
+	outline: 0;
+}
+
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: -15px;
+}
+.s_form button focus{
+	outline: 0;
+}
+
+.s_form button img{}
+
+/*news end*/
+/*Load_more start*/
+.load-more{
+	padding: 160px 0;
+	text-align: center;
+}
+.load a{
+	font-family: playfairdisplay-regular;
+	font-size: 18px;
+	font-weight: 400px;
+	color: #626262;
+	border: 1px solid #626262;
+	display: inline-block;
+	padding: 20px 35px;
+	text-decoration: none;
+}
+.load a:hover{
+	color: #fff;
+	background-color: #626262;
+}
+/*Load_more end*/
+
+/*Footer Start*/
+
+footer{
+	background-color: #f0f0f0;
+	width: 100%;
+	height: 100px;
+/*	border: 1px solid;*/
+}
+
+.footer{
+	width: 85%;
+	margin: 0 auto;
+/*	border: 1px solid green;*/
+}
+
+.footer_content{
+	overflow: hidden;
+	padding: 38px 0
+}
+
+.f_left{
+	float: left;
+	margin: 0 -40px;
+/*	border: 1px solid red;*/
+}
+
+.f_left ul{
+	margin: 0;
+}
+
+.f_left ul li{
+	list-style: none;
+	float: left;
+}
+
+.f_left p{
+	display: inline;
+}
+.f_left ul li a{
+	
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+}
+
+.f_left ul li:last-child a{
+	padding-left: 20px;
+}
+
+.f_right{
+	float: right;
+	width: 24.5%;
+/*	border: 1px solid red;*/
+}
+
+.f_right p{
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	display: inline;
+
+}
+
+.f_right ul{
+	margin: 0;
+}
+
+.f_right ul li{
+	margin:0px 9px;
+	list-style: none;
+	float: left;
+
+.f_right ul li:last-child{
+	padding-right: 0;
+}
+
+.f_right ul li a{
+	margin: 0 auto ;
+	color: #626262;
+	text-decoration: none;
+}
+
+/*Footer End*/
